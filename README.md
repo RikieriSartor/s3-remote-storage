@@ -1,4 +1,4 @@
-#s3-remote-storage
+# s3-remote-storage
 
 It's like a `localStorage`, but not `local`.
 This library offers you a kind of "BaaS" solution, to use S3 Bucket as a remote storage tool for JSON data.
