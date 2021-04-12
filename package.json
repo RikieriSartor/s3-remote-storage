@@ -1,0 +1,29 @@
+{
+  "name": "s3-remote-storage",
+  "version": "1.0.0",
+  "description": "Use S3 bucket as a remote storage tool for JSON data.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "s3",
+    "remote",
+    "storage",
+    "environment",
+    "bucket",
+    "JSON"
+  ],
+  "author": "Rikieri Sartor",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/axios": "^0.14.0",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.884.0",
+    "axios": "^0.21.1"
+  }
+}
