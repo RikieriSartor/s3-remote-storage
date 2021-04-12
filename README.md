@@ -1,11 +1,13 @@
 # s3-remote-storage
 
-It's like a `localStorage`, but not `local`.
+It's like a `localStorage`, but not `local`. ☝️
+
 This library offers you a kind of "BaaS" solution, to use S3 Bucket as a remote storage tool for JSON data.
 
 ### Methods
 
-`init` - initialize S3 bucket environment.
+`init` - Initialize S3 bucket environment.
+
 For example:
 
 ```javascript
@@ -20,6 +22,7 @@ S3RemoteStorage.init(
 ```
 
 `setItem` - Add a item to the bucket.
+
 For example:
 
 ```javascript
@@ -30,7 +33,8 @@ const data = S3RemoteStorage.setItem("fooBar", { foo: "bar" });
 console.log("Response content:", data);
 ```
 
-`getItem` - Add a item from the bucket.
+`getItem` - Get a item from the bucket.
+
 For example:
 
 ```javascript
@@ -42,6 +46,7 @@ console.log("Response content:", data);
 ```
 
 `removeItem` - Remove a item from the bucket.
+
 For example:
 
 ```javascript
